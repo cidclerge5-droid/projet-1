@@ -1,6 +1,8 @@
 .color-green {
     color: green;
-}.grid-container {
+}
+
+.grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 colonnes égales */
   gap: 20px; /* Espace entre les cases */
@@ -14,4 +16,12 @@
   text-align: center;
   font-weight: bold;
   border-radius: 10px;
+}
+
+body {
+    background-image: url('fond-connexion.jpg');
+}
+
+a {
+  color:azure;
 }
